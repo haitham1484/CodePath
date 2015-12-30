@@ -21,7 +21,7 @@ class SettingsViewController: UIViewController {
         
         
         
-        var defaults = NSUserDefaults.standardUserDefaults()
+        let defaults = NSUserDefaults.standardUserDefaults()
             
         if (defaults.objectForKey("SwitchState") != nil) {
             switch1.on = defaults.boolForKey("SwitchState")
@@ -132,9 +132,6 @@ class SettingsViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
-        
-        let defaults2 = NSUserDefaults.standardUserDefaults()
         
         
         print("view will appear 2")
