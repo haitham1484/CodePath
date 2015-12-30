@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 - [x] added virginia tech graphics to emphasize my school spirit!
 - [x] added switch button functionality in the settings screen
-- [x] switch button functionality remebers default option when transitioning back in forth between apps/ homescreen/maincontroller
+- [x] switch button functionality "remembers" default option when transitioning back in forth between apps/ homescreen/maincontroller
 - [x] split option funtionality implemented to calulate the bill amount across multiple parties/individuals
 - [x] contributed some sense of humor to the project by leaving a kind reminder at the bottom for the user
 
@@ -37,7 +37,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-It was really difficult to find out how to make the switch buttons "remember" its current state. Otherwise, I had a really awesome time with this project! Thank you for the opputunity.
+It was moderately difficult to find out how to make the switch buttons "remember" its current state. 
+Animations were really cool to work with. This was my FIRST IOS application. I had a really awesome time with this project! Thank you for the opputunity.
 
 
 ## License
