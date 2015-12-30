@@ -14,6 +14,9 @@
 		8581AFC71C324FDB00582651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8581AFC51C324FDB00582651 /* LaunchScreen.storyboard */; };
 		8581AFD21C324FDB00582651 /* TipsProject2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581AFD11C324FDB00582651 /* TipsProject2Tests.swift */; };
 		8581AFDD1C324FDB00582651 /* TipsProject2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581AFDC1C324FDB00582651 /* TipsProject2UITests.swift */; };
+		8581AFEB1C3270FE00582651 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8581AFEA1C3270FE00582651 /* SettingsViewController.swift */; };
+		8581AFF41C33C7AE00582651 /* virginia_tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 8581AFF61C33C7AE00582651 /* virginia_tech.png */; };
+		8581AFF71C33C7B400582651 /* Black_Tools.png in Resources */ = {isa = PBXBuildFile; fileRef = 8581AFF91C33C7B400582651 /* Black_Tools.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +44,15 @@
 		8581AFC31C324FDB00582651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8581AFC61C324FDB00582651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8581AFC81C324FDB00582651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8581AFCD1C324FDB00582651 /* TipsProject2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsProject2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8581AFCD1C324FDB00582651 /* TipsProject2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsProject2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8581AFD11C324FDB00582651 /* TipsProject2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsProject2Tests.swift; sourceTree = "<group>"; };
 		8581AFD31C324FDB00582651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8581AFD81C324FDB00582651 /* TipsProject2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsProject2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8581AFD81C324FDB00582651 /* TipsProject2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsProject2.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8581AFDC1C324FDB00582651 /* TipsProject2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsProject2UITests.swift; sourceTree = "<group>"; };
 		8581AFDE1C324FDB00582651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8581AFEA1C3270FE00582651 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8581AFF51C33C7AE00582651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/virginia_tech.png; sourceTree = "<group>"; };
+		8581AFF81C33C7B400582651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/Black_Tools.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +83,7 @@
 		8581AFB01C324FDB00582651 = {
 			isa = PBXGroup;
 			children = (
-				8581AFBB1C324FDB00582651 /* TipsProject2 */,
+				8581AFBB1C324FDB00582651 /* TipsProject */,
 				8581AFD01C324FDB00582651 /* TipsProject2Tests */,
 				8581AFDB1C324FDB00582651 /* TipsProject2UITests */,
 				8581AFBA1C324FDB00582651 /* Products */,
@@ -88,22 +94,26 @@
 			isa = PBXGroup;
 			children = (
 				8581AFB91C324FDB00582651 /* TipsProject2.app */,
-				8581AFCD1C324FDB00582651 /* TipsProject2Tests.xctest */,
-				8581AFD81C324FDB00582651 /* TipsProject2UITests.xctest */,
+				8581AFCD1C324FDB00582651 /* TipsProject2.xctest */,
+				8581AFD81C324FDB00582651 /* TipsProject2.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8581AFBB1C324FDB00582651 /* TipsProject2 */ = {
+		8581AFBB1C324FDB00582651 /* TipsProject */ = {
 			isa = PBXGroup;
 			children = (
+				8581AFF91C33C7B400582651 /* Black_Tools.png */,
+				8581AFF61C33C7AE00582651 /* virginia_tech.png */,
 				8581AFBC1C324FDB00582651 /* AppDelegate.swift */,
 				8581AFBE1C324FDB00582651 /* ViewController.swift */,
 				8581AFC01C324FDB00582651 /* Main.storyboard */,
+				8581AFEA1C3270FE00582651 /* SettingsViewController.swift */,
 				8581AFC31C324FDB00582651 /* Assets.xcassets */,
 				8581AFC51C324FDB00582651 /* LaunchScreen.storyboard */,
 				8581AFC81C324FDB00582651 /* Info.plist */,
 			);
+			name = TipsProject;
 			path = TipsProject2;
 			sourceTree = "<group>";
 		};
@@ -160,7 +170,7 @@
 			);
 			name = TipsProject2Tests;
 			productName = TipsProject2Tests;
-			productReference = 8581AFCD1C324FDB00582651 /* TipsProject2Tests.xctest */;
+			productReference = 8581AFCD1C324FDB00582651 /* TipsProject2.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8581AFD71C324FDB00582651 /* TipsProject2UITests */ = {
@@ -178,7 +188,7 @@
 			);
 			name = TipsProject2UITests;
 			productName = TipsProject2UITests;
-			productReference = 8581AFD81C324FDB00582651 /* TipsProject2UITests.xctest */;
+			productReference = 8581AFD81C324FDB00582651 /* TipsProject2.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +239,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8581AFF41C33C7AE00582651 /* virginia_tech.png in Resources */,
 				8581AFC71C324FDB00582651 /* LaunchScreen.storyboard in Resources */,
+				8581AFF71C33C7B400582651 /* Black_Tools.png in Resources */,
 				8581AFC41C324FDB00582651 /* Assets.xcassets in Resources */,
 				8581AFC21C324FDB00582651 /* Main.storyboard in Resources */,
 			);
@@ -258,6 +270,7 @@
 			files = (
 				8581AFBF1C324FDB00582651 /* ViewController.swift in Sources */,
 				8581AFBD1C324FDB00582651 /* AppDelegate.swift in Sources */,
+				8581AFEB1C3270FE00582651 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +320,24 @@
 				8581AFC61C324FDB00582651 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8581AFF61C33C7AE00582651 /* virginia_tech.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8581AFF51C33C7AE00582651 /* Base */,
+			);
+			name = virginia_tech.png;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8581AFF91C33C7B400582651 /* Black_Tools.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8581AFF81C33C7B400582651 /* Base */,
+			);
+			name = Black_Tools.png;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -400,7 +431,7 @@
 				INFOPLIST_FILE = TipsProject2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "virginia-tech.TipsProject2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsProject2;
 			};
 			name = Debug;
 		};
@@ -411,7 +442,7 @@
 				INFOPLIST_FILE = TipsProject2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "virginia-tech.TipsProject2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsProject2;
 			};
 			name = Release;
 		};
@@ -422,7 +453,7 @@
 				INFOPLIST_FILE = TipsProject2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "virginia-tech.TipsProject2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsProject2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipsProject2.app/TipsProject2";
 			};
 			name = Debug;
@@ -434,7 +465,7 @@
 				INFOPLIST_FILE = TipsProject2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "virginia-tech.TipsProject2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsProject2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipsProject2.app/TipsProject2";
 			};
 			name = Release;
@@ -445,7 +476,7 @@
 				INFOPLIST_FILE = TipsProject2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "virginia-tech.TipsProject2UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsProject2;
 				TEST_TARGET_NAME = TipsProject2;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +488,7 @@
 				INFOPLIST_FILE = TipsProject2UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "virginia-tech.TipsProject2UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TipsProject2;
 				TEST_TARGET_NAME = TipsProject2;
 				USES_XCTRUNNER = YES;
 			};
