@@ -24,11 +24,13 @@ The following **additional** features are implemented:
 - [x] switch button functionality "remembers" default option when transitioning back in forth between apps/ homescreen/maincontroller
 - [x] split option funtionality implemented to calulate the bill amount across multiple parties/individuals
 - [x] contributed some sense of humor to the project by leaving a kind reminder at the bottom for the user
+- [x] added a settings screen with a nifty tool/settings icon
+- [x] image manipualtion using graphics 
+- [x] used some CLEAVER yet simple math to "split" the tip total amount and represent that on the screen
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-
 
 
 <img src='http://i.imgur.com/57YY0bY.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
