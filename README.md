@@ -16,15 +16,14 @@ The following **optional** features are implemented:
 * [x] UI animations
 * [x] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-- [x] added virginia tech graphics to emphasize my school spirit
+- [x] added virginia tech graphics to emphasize my school spirit!
 - [x] added switch button functionality in the settings screen
-- [x] Swithch button functionality remebers default option when swithcing back in forth between apps/homescreen/     maincontroller
+- [x] switch button functionality remebers default option when transitioning back in forth between apps/ homescreen/maincontroller
 - [x] split option funtionality implemented to calulate the bill amount across multiple parties/individuals
-- [x] added virginia tech graphics to emphasize my school spirit
-- [x] contributed some sense of humor to the project
+- [x] contributed some sense of humor to the project by leaving a kind reminder at the bottom for the user
 
 ## Video Walkthrough 
 
@@ -38,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-It was somewhat difficult find out how to make the switch buttons "remember" its current state. Otherwise, I had a really awesome time with this project! 
+It was really difficult to find out how to make the switch buttons "remember" its current state. Otherwise, I had a really awesome time with this project! Thank you for the opputunity.
 
 
 ## License
