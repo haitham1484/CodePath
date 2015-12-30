@@ -40,7 +40,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 It was moderately difficult to find out how to make the switch buttons "remember" its current state. 
-Animations were really cool to work with. This was my FIRST IOS application. I had a really awesome time with this project! Thank you for the opputunity.
+Animations were really cool to work with. This was my FIRST IOS application. I had a really awesome time with this project! Thank you for the opportunity.
 
 
 ## License
